@@ -516,7 +516,8 @@
                     ]
                 ]
             ]
-        }
+        },
+        "baseline": 50
     },
     "ObjectWidth_mm": 10,
     "ObjectHeight_mm": 5

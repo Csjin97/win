@@ -31,8 +31,8 @@
             "AfMetering": "Auto",
             "AfWindows": null
         },
-        "LensPosition": 3.6,
-        "Lens_Magnification": 0.08862,
+        "Lens_Magnification_lens_X": 0.08862,
+        "Lens_Magnification": 0.02023,
         "Calibration": {
             "Mtx": [
                 [
