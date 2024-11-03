@@ -1,0 +1,27 @@
+# ---------------------------------------------#
+
+#TODO:
+# 렌즈 왜곡 보정 > 체커보드를 다양한 시점에서 찍어 계수를 확인하여 이미지에 보정하려고 했으나 체커브드를 찍은 이미지에 문제가 발생
+    # 마운트에 체커보드가 가려지면서 둥근 형태로 체커보드가 일부분만 보이는 문제 발생 > 시야각 조정을 위해 초점 거리를 수정하여도 마운트에 이미지가 가려지고 체커보드 이미지의 형태가 불분명함
+
+# picam2 멀티 프로세싱 : 현재 카메라1 > 2 > 3 > 4 이미지 캡쳐 원하는 방법은 1,2,3,4가 동시에 캡쳐
+    # 3,4 카메라 렌즈가 없어서 현재 상황에서는 필요성이 없어서 작업 x 렌즈 입고 11월 중 예상
+
+# 케이블 또는 타임아웃 에러 발생 > 케이블 확인 이상 무, 카메라 에러 발생 x, 발생 원인 파악 중 해결방법: 재부팅
+# WARN V4L2 v4l2_videodevice.cpp:2007 /dev/video0[18:cap]: Dequeue timer of 1000000.00us has expired!
+# ERROR RPI pipeline_base.cpp:1333 Camera frontend has timed out!
+# ERROR RPI pipeline_base.cpp:1334 Please check that your camera sensor connector is attached securely.
+# ERROR RPI pipeline_base.cpp:1335 Alternatively, try another cable and/or sensor. 
+# 일정 시간 동안 동작 x or 중단점에 계속 잡혀있는 경우 발생되는 걸로 예상
+
+# 1번 이미지 캡쳐 후 2번 이미지 캡쳐 할때 카메라가 위 아래로 이동하는 경우 
+# 1번 이미지에 따른 이미지 정렬 y축 이동 추출 
+
+# 객체 or 카메라 이동하는 경우 정확한 이동하지 못하여 반복성이 떨어질 가능성
+
+# 렌즈의 초점거리와 현재 임시로 장착한 방법이 렌즈 스펙과 다르게 장착됨
+ 
+# ---------------------------------------------#
+# 사용 카메라 : https://www.arducam.com/product/arducam-12mp-imx708-quad-camera-kit-wide-angle-stereo-synchronized-camera-module-for-raspberry-pi/
+# 장착 렌즈 : https://www.edmundoptics.co.kr/p/150mm-dia-x-500mm-fl-vis-0-coated-plano-convex-lens/39057/#
+    

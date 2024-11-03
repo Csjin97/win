@@ -1,0 +1,39 @@
+{
+    "Path": "~/TestCam",
+    "Image_Save_Path": "",
+    "Camera_Indices": [
+        0,
+        1,
+        2,
+        3
+    ],
+    "Calibration_Data_Path": "~/TestCam/calibration",
+    "Perform_Calibration": true,
+    "Calibration": {
+        "Pattern_Columns": 9,
+        "Pattern_Rows": 6,
+        "Square_Size": 0.025,
+        "Num_Images": 20
+    },
+    "Camera": {
+        "Pixel_Size": 0.005,
+        "Lens_Magnification": 1.0,
+        "Width": 1920,
+        "Height": 1080
+    },
+    "PreProcess": {
+        "ROI": {
+            "Use": false,
+            "Coordinates": {
+                "x": 1550,
+                "y": 455,
+                "w": 1450,
+                "h": 1495
+            }
+        },
+        "Zoom": {
+            "Use": false,
+            "Zoom_Factor": 1.0
+        }
+    }
+}

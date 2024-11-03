@@ -1,0 +1,76 @@
+2024-10-24 11:56:21,097 - INFO - 폴더 경로: /home/hims/TestCam/20241024_115621
+2024-10-24 11:56:21,099 - INFO - 로그 파일 경로: /home/hims/TestCam/20241024_115621/log/log.txt
+2024-10-24 11:56:21,100 - INFO - 폴더 및 로깅 설정 완료.
+2024-10-24 11:56:21,106 - INFO - 설정 값: {
+    "Num_Cameras": 1,
+    "Path": "~/TestCam",
+    "Background_Img_Path": "/home/hims/TestCam/img/no_lesn_img/background_image0.jpg",
+    "img1_path": "/home/hims/TestCam/img/no_lesn_img/first_image0.jpg",
+    "img2_path": "/home/hims/TestCam/img/no_lesn_img/20241023_142205/second_image0.jpg",
+    "PreProcess": {
+        "ROI": {
+            "Use": true,
+            "Coordinates": {
+                "x": 1550,
+                "y": 455,
+                "w": 1450,
+                "h": 1495
+            }
+        },
+        "Zoom": {
+            "Use": false,
+            "Zoom_Factor": 1.5
+        }
+    },
+    "Test_Img_Capture": false,
+    "Calibration": false,
+    "Camera": {
+        "Width": 4608,
+        "Height": 2592,
+        "Pixel_Size": 0.0014,
+        "Exposure_Time": 75,
+        "AnalogueGain": null,
+        "ColourGains": null,
+        "FPS": null,
+        "AF": true,
+        "AF_MODE": {
+            "AfRange": "Normal",
+            "AfSpeed": "Normal",
+            "AfMetering": "Auto",
+            "AfWindows": null
+        },
+        "LensPosition": 3.6,
+        "Lens_Magnification": 0.08862,
+        "Calibration": {
+            "Mtx": null,
+            "Dist": null,
+            "Rvecs": null,
+            "Tvecs": null
+        }
+    },
+    "ObjectWidth_mm": 10,
+    "ObjectHeight_mm": 5,
+    "Image_Save_Path": "/home/hims/TestCam/20241024_115621"
+}
+2024-10-24 11:56:21,108 - INFO - MeasurementTool 생성 완료.
+2024-10-24 11:56:21,108 - INFO - 0번 카메라 초기화 중...
+2024-10-24 11:56:21,111 - INFO - I2C 채널 0 설정 성공.
+2024-10-24 11:56:21,232 - INFO - Initialization successful.
+2024-10-24 11:56:21,233 - INFO - Camera now open.
+2024-10-24 11:56:21,235 - DEBUG - <libcamera._libcamera.CameraManager object at 0x7f9ad7a1f0>
+2024-10-24 11:56:21,252 - DEBUG - Requesting configuration: {'use_case': 'still', 'transform': <libcamera.Transform 'identity'>, 'colour_space': <libcamera.ColorSpace 'sYCC'>, 'buffer_count': 1, 'queue': True, 'main': {'format': 'BGR888', 'size': (4608, 2592), 'stride': 13824, 'framesize': 35831808}, 'lores': None, 'raw': {'format': 'SBGGR10_CSI2P', 'size': (4608, 2592), 'stride': 5760, 'framesize': 14929920}, 'controls': {'NoiseReductionMode': <NoiseReductionModeEnum.HighQuality: 2>, 'FrameDurationLimits': (100, 1000000000)}, 'display': None, 'encode': None}
+2024-10-24 11:56:21,255 - INFO - Configuration successful!
+2024-10-24 11:56:21,256 - DEBUG - Final configuration: {'use_case': 'still', 'transform': <libcamera.Transform 'identity'>, 'colour_space': <libcamera.ColorSpace 'sYCC'>, 'buffer_count': 1, 'queue': True, 'main': {'format': 'BGR888', 'size': (4608, 2592), 'stride': 13824, 'framesize': 35831808}, 'lores': None, 'raw': {'format': 'SBGGR10_CSI2P', 'size': (4608, 2592), 'stride': 5760, 'framesize': 14929920}, 'controls': {'NoiseReductionMode': <NoiseReductionModeEnum.HighQuality: 2>, 'FrameDurationLimits': (100, 1000000000)}, 'display': None, 'encode': None}
+2024-10-24 11:56:21,258 - DEBUG - Streams: {'main': <libcamera._libcamera.Stream object at 0x7f9ad81770>, 'lores': None, 'raw': <libcamera._libcamera.Stream object at 0x7f9ac12670>}
+2024-10-24 11:56:21,276 - DEBUG - Allocated 1 buffers for stream 0.
+2024-10-24 11:56:21,303 - DEBUG - Allocated 1 buffers for stream 1.
+2024-10-24 11:56:21,306 - INFO - 초점 설정: {'ExposureTime': 75000, 'AfMode': <AfModeEnum.Auto: 1>, 'AfRange': <AfRangeEnum.Normal: 0>, 'AfSpeed': <AfSpeedEnum.Normal: 0>, 'AfMetering': <AfMeteringEnum.Auto: 0>}
+2024-10-24 11:56:22,308 - INFO - 0번 카메라 설정 완료.
+2024-10-24 11:56:22,309 - INFO - CameraController 0 생성 완료.
+2024-10-24 11:56:24,953 - INFO - ORB 기반 이동 거리: -5.05 mm
+2024-10-24 11:56:24,954 - INFO - 카메라의 수직 이동 거리: -5.051811 mm
+2024-10-24 11:56:25,305 - ERROR - 어파인 변환 추정에 실패했습니다.
+2024-10-24 11:56:25,306 - DEBUG - Camera was not started
+2024-10-24 11:56:25,491 - INFO - Camera closed successfully.
+2024-10-24 11:56:25,492 - INFO - CameraController 0가 성공적으로 종료되었습니다.
+2024-10-24 11:56:26,173 - DEBUG - Resources now free: <picamera2.picamera2.Picamera2 object at 0x7f9abeba90>

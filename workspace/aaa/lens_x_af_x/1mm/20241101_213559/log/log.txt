@@ -1,0 +1,700 @@
+2024-11-01 21:35:59,128 - INFO - 폴더 경로: /home/hims/TestCam/20241101_213559
+2024-11-01 21:35:59,131 - INFO - 로그 파일 경로: /home/hims/TestCam/20241101_213559/log/log.txt
+2024-11-01 21:35:59,132 - INFO - 폴더 및 로깅 설정 완료.
+2024-11-01 21:35:59,169 - INFO - 설정 값: {
+    "Num_Cameras": 4,
+    "Path": "~/TestCam",
+    "Background_Img_Path_0": "/home/hims/TestCam/lens_x_af_x/background_img/0.jpg",
+    "Background_Img_Path_1": "/home/hims/TestCam/lens_x_af_x/background_img/1.jpg",
+    "Background_Img_Path_2": "/home/hims/TestCam/lens_x_af_x/background_img/2.jpg",
+    "Background_Img_Path_3": "/home/hims/TestCam/lens_x_af_x/background_img/3.jpg",
+    "capture_img0_path": "/home/hims/TestCam/lens_x_af_x/0/first_image0.jpg",
+    "capture_img1_path": "/home/hims/TestCam/lens_x_af_x/0/first_image1.jpg",
+    "capture_img2_path": "/home/hims/TestCam/lens_x_af_x/0/first_image2.jpg",
+    "capture_img3_path": "/home/hims/TestCam/lens_x_af_x/0/first_image3.jpg",
+    "img1_path": null,
+    "img2_path": null,
+    "PreProcess": {
+        "ROI": {
+            "Use": false,
+            "Coordinates": {
+                "x": 1150,
+                "y": 390,
+                "w": 2080,
+                "h": 2060
+            }
+        },
+        "Zoom": {
+            "Use": false,
+            "Zoom_Factor": 1.5
+        }
+    },
+    "Test_Img_Capture": false,
+    "Camera": {
+        "Width": 4608,
+        "Height": 2592,
+        "Pixel_Size": 0.0014,
+        "Exposure_Time": 50,
+        "AnalogueGain": null,
+        "ColourGains": null,
+        "FPS": null,
+        "AF": false,
+        "AF_MODE": {
+            "AfRange": "Normal",
+            "AfSpeed": "Normal",
+            "AfMetering": "Auto",
+            "AfWindows": null
+        },
+        "LensPosition": 3.6,
+        "Lens_Magnification_lens_X": 0.08862,
+        "Lens_Magnification": 0.02023,
+        "Calibration": {
+            "Mtx": [
+                [
+                    1958.98904,
+                    0.0,
+                    2290.95364
+                ],
+                [
+                    0.0,
+                    1955.84907,
+                    1286.02811
+                ],
+                [
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ],
+            "Dist": [
+                [
+                    -0.04660891,
+                    0.07701769,
+                    -0.0007362,
+                    -0.00422797,
+                    -0.03522696
+                ]
+            ],
+            "Rvecs": [
+                [
+                    [
+                        -0.46197586
+                    ],
+                    [
+                        0.29913874
+                    ],
+                    [
+                        -2.85994268
+                    ]
+                ],
+                [
+                    [
+                        -0.01173119
+                    ],
+                    [
+                        0.00416044
+                    ],
+                    [
+                        -0.02041208
+                    ]
+                ],
+                [
+                    [
+                        0.42630757
+                    ],
+                    [
+                        0.57336384
+                    ],
+                    [
+                        0.0059554
+                    ]
+                ],
+                [
+                    [
+                        -0.21267157
+                    ],
+                    [
+                        -1.10007966
+                    ],
+                    [
+                        2.90383419
+                    ]
+                ],
+                [
+                    [
+                        0.08252687
+                    ],
+                    [
+                        0.28216061
+                    ],
+                    [
+                        0.19986474
+                    ]
+                ],
+                [
+                    [
+                        0.13703204
+                    ],
+                    [
+                        -0.03611322
+                    ],
+                    [
+                        -0.00459311
+                    ]
+                ],
+                [
+                    [
+                        -0.56666421
+                    ],
+                    [
+                        1.0241654
+                    ],
+                    [
+                        -2.2598626
+                    ]
+                ],
+                [
+                    [
+                        -0.1828266
+                    ],
+                    [
+                        -0.67475124
+                    ],
+                    [
+                        2.99645455
+                    ]
+                ],
+                [
+                    [
+                        -0.20912048
+                    ],
+                    [
+                        -1.18514577
+                    ],
+                    [
+                        2.86107136
+                    ]
+                ],
+                [
+                    [
+                        0.62007571
+                    ],
+                    [
+                        -0.05058967
+                    ],
+                    [
+                        -0.75488441
+                    ]
+                ],
+                [
+                    [
+                        0.04436743
+                    ],
+                    [
+                        1.48862439
+                    ],
+                    [
+                        -2.72367031
+                    ]
+                ],
+                [
+                    [
+                        0.0565409
+                    ],
+                    [
+                        0.04487346
+                    ],
+                    [
+                        0.07269849
+                    ]
+                ],
+                [
+                    [
+                        0.22766763
+                    ],
+                    [
+                        0.71533092
+                    ],
+                    [
+                        -2.96366511
+                    ]
+                ],
+                [
+                    [
+                        -0.59483624
+                    ],
+                    [
+                        -0.64770654
+                    ],
+                    [
+                        2.57743407
+                    ]
+                ],
+                [
+                    [
+                        0.57770248
+                    ],
+                    [
+                        0.07472907
+                    ],
+                    [
+                        -0.0657015
+                    ]
+                ],
+                [
+                    [
+                        0.29413552
+                    ],
+                    [
+                        0.63132307
+                    ],
+                    [
+                        0.03005026
+                    ]
+                ],
+                [
+                    [
+                        0.66337822
+                    ],
+                    [
+                        0.54973238
+                    ],
+                    [
+                        -0.18125041
+                    ]
+                ],
+                [
+                    [
+                        0.8671036
+                    ],
+                    [
+                        -0.20459624
+                    ],
+                    [
+                        -1.06981639
+                    ]
+                ],
+                [
+                    [
+                        -0.19083085
+                    ],
+                    [
+                        -1.41870876
+                    ],
+                    [
+                        2.76896232
+                    ]
+                ],
+                [
+                    [
+                        0.53896528
+                    ],
+                    [
+                        0.26690454
+                    ],
+                    [
+                        -0.49616238
+                    ]
+                ]
+            ],
+            "Tvecs": [
+                [
+                    [
+                        0.72788293
+                    ],
+                    [
+                        3.60221722
+                    ],
+                    [
+                        9.31813498
+                    ]
+                ],
+                [
+                    [
+                        -4.12798439
+                    ],
+                    [
+                        -0.95495385
+                    ],
+                    [
+                        22.75183593
+                    ]
+                ],
+                [
+                    [
+                        -3.2163332
+                    ],
+                    [
+                        -2.83276546
+                    ],
+                    [
+                        12.70998181
+                    ]
+                ],
+                [
+                    [
+                        2.76771408
+                    ],
+                    [
+                        2.34835729
+                    ],
+                    [
+                        15.34543122
+                    ]
+                ],
+                [
+                    [
+                        -1.99379831
+                    ],
+                    [
+                        -4.22908685
+                    ],
+                    [
+                        17.66834496
+                    ]
+                ],
+                [
+                    [
+                        -4.71920087
+                    ],
+                    [
+                        -4.27398487
+                    ],
+                    [
+                        11.02646777
+                    ]
+                ],
+                [
+                    [
+                        1.98644411
+                    ],
+                    [
+                        2.30968653
+                    ],
+                    [
+                        13.4811443
+                    ]
+                ],
+                [
+                    [
+                        3.62684251
+                    ],
+                    [
+                        4.27725307
+                    ],
+                    [
+                        14.34296072
+                    ]
+                ],
+                [
+                    [
+                        3.7503818
+                    ],
+                    [
+                        -0.0571468
+                    ],
+                    [
+                        15.43278085
+                    ]
+                ],
+                [
+                    [
+                        -5.15443264
+                    ],
+                    [
+                        0.0425841
+                    ],
+                    [
+                        10.79785429
+                    ]
+                ],
+                [
+                    [
+                        5.38169401
+                    ],
+                    [
+                        0.8635444
+                    ],
+                    [
+                        14.7108077
+                    ]
+                ],
+                [
+                    [
+                        -2.66169199
+                    ],
+                    [
+                        -3.25172335
+                    ],
+                    [
+                        15.35260358
+                    ]
+                ],
+                [
+                    [
+                        1.92068269
+                    ],
+                    [
+                        1.41905666
+                    ],
+                    [
+                        12.63107365
+                    ]
+                ],
+                [
+                    [
+                        5.31116371
+                    ],
+                    [
+                        1.03562969
+                    ],
+                    [
+                        14.82581683
+                    ]
+                ],
+                [
+                    [
+                        -5.07123569
+                    ],
+                    [
+                        -3.02009217
+                    ],
+                    [
+                        9.70533778
+                    ]
+                ],
+                [
+                    [
+                        -4.47238926
+                    ],
+                    [
+                        -3.7370573
+                    ],
+                    [
+                        12.48634925
+                    ]
+                ],
+                [
+                    [
+                        -5.86124306
+                    ],
+                    [
+                        -4.11264819
+                    ],
+                    [
+                        13.6808075
+                    ]
+                ],
+                [
+                    [
+                        -7.90786099
+                    ],
+                    [
+                        3.26249044
+                    ],
+                    [
+                        10.98257991
+                    ]
+                ],
+                [
+                    [
+                        4.48879376
+                    ],
+                    [
+                        0.55191032
+                    ],
+                    [
+                        15.2697954
+                    ]
+                ],
+                [
+                    [
+                        -4.45771355
+                    ],
+                    [
+                        -0.65357677
+                    ],
+                    [
+                        10.58097624
+                    ]
+                ]
+            ]
+        }
+    },
+    "ObjectWidth_mm": 10,
+    "ObjectHeight_mm": 5,
+    "Image_Save_Path": "/home/hims/TestCam/20241101_213559"
+}
+2024-11-01 21:35:59,173 - INFO - MeasurementTool 생성 완료.
+2024-11-01 21:35:59,930 - INFO - 0번 카메라 초기화 중...
+2024-11-01 21:35:59,933 - INFO - I2C 채널 0 설정 성공.
+2024-11-01 21:35:59,935 - INFO - ImageProcessor 생성 완료.
+2024-11-01 21:36:00,059 - INFO - Initialization successful.
+2024-11-01 21:36:00,060 - INFO - Camera now open.
+2024-11-01 21:36:00,062 - DEBUG - <libcamera._libcamera.CameraManager object at 0x7f6fc7adb0>
+2024-11-01 21:36:00,078 - DEBUG - Requesting configuration: {'use_case': 'still', 'transform': <libcamera.Transform 'identity'>, 'colour_space': <libcamera.ColorSpace 'sYCC'>, 'buffer_count': 1, 'queue': True, 'main': {'format': 'BGR888', 'size': (4608, 2592), 'stride': 13824, 'framesize': 35831808}, 'lores': None, 'raw': {'format': 'SBGGR10_CSI2P', 'size': (4608, 2592), 'stride': 5760, 'framesize': 14929920}, 'controls': {'NoiseReductionMode': <NoiseReductionModeEnum.HighQuality: 2>, 'FrameDurationLimits': (100, 1000000000)}, 'display': None, 'encode': None}
+2024-11-01 21:36:00,092 - INFO - Configuration successful!
+2024-11-01 21:36:00,093 - DEBUG - Final configuration: {'use_case': 'still', 'transform': <libcamera.Transform 'identity'>, 'colour_space': <libcamera.ColorSpace 'sYCC'>, 'buffer_count': 1, 'queue': True, 'main': {'format': 'BGR888', 'size': (4608, 2592), 'stride': 13824, 'framesize': 35831808}, 'lores': None, 'raw': {'format': 'SBGGR10_CSI2P', 'size': (4608, 2592), 'stride': 5760, 'framesize': 14929920}, 'controls': {'NoiseReductionMode': <NoiseReductionModeEnum.HighQuality: 2>, 'FrameDurationLimits': (100, 1000000000)}, 'display': None, 'encode': None}
+2024-11-01 21:36:00,094 - DEBUG - Streams: {'main': <libcamera._libcamera.Stream object at 0x7f702e2e70>, 'lores': None, 'raw': <libcamera._libcamera.Stream object at 0x7f71419ef0>}
+2024-11-01 21:36:00,112 - DEBUG - Allocated 1 buffers for stream 0.
+2024-11-01 21:36:00,140 - DEBUG - Allocated 1 buffers for stream 1.
+2024-11-01 21:36:00,143 - INFO - 초점 설정: {'ExposureTime': 50000, 'AfMode': <AfModeEnum.Manual: 0>, 'LensPosition': 3.6}
+2024-11-01 21:36:01,145 - INFO - 0번 카메라 설정 완료.
+2024-11-01 21:36:01,146 - INFO - CameraController 0 생성 완료.
+2024-11-01 21:36:01,323 - DEBUG - Camera was not started
+2024-11-01 21:36:01,483 - INFO - Camera closed successfully.
+2024-11-01 21:36:01,485 - INFO - CameraController 0가 성공적으로 종료되었습니다.
+2024-11-01 21:36:01,486 - INFO - 1번 카메라 초기화 중...
+2024-11-01 21:36:01,487 - INFO - I2C 채널 1 설정 성공.
+2024-11-01 21:36:01,489 - INFO - ImageProcessor 생성 완료.
+2024-11-01 21:36:01,616 - INFO - Initialization successful.
+2024-11-01 21:36:01,618 - INFO - Camera now open.
+2024-11-01 21:36:01,619 - DEBUG - <libcamera._libcamera.CameraManager object at 0x7f6fc7adb0>
+2024-11-01 21:36:01,632 - DEBUG - Requesting configuration: {'use_case': 'still', 'transform': <libcamera.Transform 'identity'>, 'colour_space': <libcamera.ColorSpace 'sYCC'>, 'buffer_count': 1, 'queue': True, 'main': {'format': 'BGR888', 'size': (4608, 2592), 'stride': 13824, 'framesize': 35831808}, 'lores': None, 'raw': {'format': 'SBGGR10_CSI2P', 'size': (4608, 2592), 'stride': 5760, 'framesize': 14929920}, 'controls': {'NoiseReductionMode': <NoiseReductionModeEnum.HighQuality: 2>, 'FrameDurationLimits': (100, 1000000000)}, 'display': None, 'encode': None}
+2024-11-01 21:36:01,635 - INFO - Configuration successful!
+2024-11-01 21:36:01,636 - DEBUG - Final configuration: {'use_case': 'still', 'transform': <libcamera.Transform 'identity'>, 'colour_space': <libcamera.ColorSpace 'sYCC'>, 'buffer_count': 1, 'queue': True, 'main': {'format': 'BGR888', 'size': (4608, 2592), 'stride': 13824, 'framesize': 35831808}, 'lores': None, 'raw': {'format': 'SBGGR10_CSI2P', 'size': (4608, 2592), 'stride': 5760, 'framesize': 14929920}, 'controls': {'NoiseReductionMode': <NoiseReductionModeEnum.HighQuality: 2>, 'FrameDurationLimits': (100, 1000000000)}, 'display': None, 'encode': None}
+2024-11-01 21:36:01,637 - DEBUG - Streams: {'main': <libcamera._libcamera.Stream object at 0x7f6fc84030>, 'lores': None, 'raw': <libcamera._libcamera.Stream object at 0x7f6e391c70>}
+2024-11-01 21:36:01,656 - DEBUG - Allocated 1 buffers for stream 0.
+2024-11-01 21:36:01,684 - DEBUG - Allocated 1 buffers for stream 1.
+2024-11-01 21:36:01,687 - INFO - 초점 설정: {'ExposureTime': 50000, 'AfMode': <AfModeEnum.Manual: 0>, 'LensPosition': 3.6}
+2024-11-01 21:36:02,688 - INFO - 1번 카메라 설정 완료.
+2024-11-01 21:36:02,689 - INFO - CameraController 1 생성 완료.
+2024-11-01 21:36:02,867 - DEBUG - Camera was not started
+2024-11-01 21:36:03,032 - INFO - Camera closed successfully.
+2024-11-01 21:36:03,032 - INFO - CameraController 1가 성공적으로 종료되었습니다.
+2024-11-01 21:36:03,033 - INFO - 2번 카메라 초기화 중...
+2024-11-01 21:36:03,034 - INFO - I2C 채널 2 설정 성공.
+2024-11-01 21:36:03,036 - INFO - ImageProcessor 생성 완료.
+2024-11-01 21:36:03,168 - INFO - Initialization successful.
+2024-11-01 21:36:03,168 - INFO - Camera now open.
+2024-11-01 21:36:03,170 - DEBUG - <libcamera._libcamera.CameraManager object at 0x7f6fc7adb0>
+2024-11-01 21:36:03,185 - DEBUG - Requesting configuration: {'use_case': 'still', 'transform': <libcamera.Transform 'identity'>, 'colour_space': <libcamera.ColorSpace 'sYCC'>, 'buffer_count': 1, 'queue': True, 'main': {'format': 'BGR888', 'size': (4608, 2592), 'stride': 13824, 'framesize': 35831808}, 'lores': None, 'raw': {'format': 'SBGGR10_CSI2P', 'size': (4608, 2592), 'stride': 5760, 'framesize': 14929920}, 'controls': {'NoiseReductionMode': <NoiseReductionModeEnum.HighQuality: 2>, 'FrameDurationLimits': (100, 1000000000)}, 'display': None, 'encode': None}
+2024-11-01 21:36:03,188 - INFO - Configuration successful!
+2024-11-01 21:36:03,189 - DEBUG - Final configuration: {'use_case': 'still', 'transform': <libcamera.Transform 'identity'>, 'colour_space': <libcamera.ColorSpace 'sYCC'>, 'buffer_count': 1, 'queue': True, 'main': {'format': 'BGR888', 'size': (4608, 2592), 'stride': 13824, 'framesize': 35831808}, 'lores': None, 'raw': {'format': 'SBGGR10_CSI2P', 'size': (4608, 2592), 'stride': 5760, 'framesize': 14929920}, 'controls': {'NoiseReductionMode': <NoiseReductionModeEnum.HighQuality: 2>, 'FrameDurationLimits': (100, 1000000000)}, 'display': None, 'encode': None}
+2024-11-01 21:36:03,191 - DEBUG - Streams: {'main': <libcamera._libcamera.Stream object at 0x7f6e391c30>, 'lores': None, 'raw': <libcamera._libcamera.Stream object at 0x7f6e3919f0>}
+2024-11-01 21:36:03,208 - DEBUG - Allocated 1 buffers for stream 0.
+2024-11-01 21:36:03,236 - DEBUG - Allocated 1 buffers for stream 1.
+2024-11-01 21:36:03,238 - INFO - 초점 설정: {'ExposureTime': 50000, 'AfMode': <AfModeEnum.Manual: 0>, 'LensPosition': 3.6}
+2024-11-01 21:36:04,240 - INFO - 2번 카메라 설정 완료.
+2024-11-01 21:36:04,242 - INFO - CameraController 2 생성 완료.
+2024-11-01 21:36:04,482 - DEBUG - Camera was not started
+2024-11-01 21:36:04,584 - INFO - Camera closed successfully.
+2024-11-01 21:36:04,585 - INFO - CameraController 2가 성공적으로 종료되었습니다.
+2024-11-01 21:36:04,586 - INFO - 3번 카메라 초기화 중...
+2024-11-01 21:36:04,587 - INFO - I2C 채널 3 설정 성공.
+2024-11-01 21:36:04,588 - INFO - ImageProcessor 생성 완료.
+2024-11-01 21:36:04,717 - INFO - Initialization successful.
+2024-11-01 21:36:04,718 - INFO - Camera now open.
+2024-11-01 21:36:04,719 - DEBUG - <libcamera._libcamera.CameraManager object at 0x7f6e38dc30>
+2024-11-01 21:36:04,731 - DEBUG - Requesting configuration: {'use_case': 'still', 'transform': <libcamera.Transform 'identity'>, 'colour_space': <libcamera.ColorSpace 'sYCC'>, 'buffer_count': 1, 'queue': True, 'main': {'format': 'BGR888', 'size': (4608, 2592), 'stride': 13824, 'framesize': 35831808}, 'lores': None, 'raw': {'format': 'SBGGR10_CSI2P', 'size': (4608, 2592), 'stride': 5760, 'framesize': 14929920}, 'controls': {'NoiseReductionMode': <NoiseReductionModeEnum.HighQuality: 2>, 'FrameDurationLimits': (100, 1000000000)}, 'display': None, 'encode': None}
+2024-11-01 21:36:04,734 - INFO - Configuration successful!
+2024-11-01 21:36:04,737 - DEBUG - Final configuration: {'use_case': 'still', 'transform': <libcamera.Transform 'identity'>, 'colour_space': <libcamera.ColorSpace 'sYCC'>, 'buffer_count': 1, 'queue': True, 'main': {'format': 'BGR888', 'size': (4608, 2592), 'stride': 13824, 'framesize': 35831808}, 'lores': None, 'raw': {'format': 'SBGGR10_CSI2P', 'size': (4608, 2592), 'stride': 5760, 'framesize': 14929920}, 'controls': {'NoiseReductionMode': <NoiseReductionModeEnum.HighQuality: 2>, 'FrameDurationLimits': (100, 1000000000)}, 'display': None, 'encode': None}
+2024-11-01 21:36:04,739 - DEBUG - Streams: {'main': <libcamera._libcamera.Stream object at 0x7f6fc84330>, 'lores': None, 'raw': <libcamera._libcamera.Stream object at 0x7f6e393af0>}
+2024-11-01 21:36:04,755 - DEBUG - Allocated 1 buffers for stream 0.
+2024-11-01 21:36:04,783 - DEBUG - Allocated 1 buffers for stream 1.
+2024-11-01 21:36:04,785 - INFO - 초점 설정: {'ExposureTime': 50000, 'AfMode': <AfModeEnum.Manual: 0>, 'LensPosition': 3.6}
+2024-11-01 21:36:05,787 - INFO - 3번 카메라 설정 완료.
+2024-11-01 21:36:05,788 - INFO - CameraController 3 생성 완료.
+2024-11-01 21:36:05,970 - DEBUG - Camera was not started
+2024-11-01 21:36:06,130 - INFO - Camera closed successfully.
+2024-11-01 21:36:06,131 - INFO - CameraController 3가 성공적으로 종료되었습니다.
+2024-11-01 21:36:06,132 - INFO - 0번 카메라 초기화 중...
+2024-11-01 21:36:06,133 - INFO - I2C 채널 0 설정 성공.
+2024-11-01 21:36:06,134 - INFO - ImageProcessor 생성 완료.
+2024-11-01 21:36:06,261 - INFO - Initialization successful.
+2024-11-01 21:36:06,263 - INFO - Camera now open.
+2024-11-01 21:36:06,264 - DEBUG - <libcamera._libcamera.CameraManager object at 0x7f71405ab0>
+2024-11-01 21:36:06,276 - DEBUG - Requesting configuration: {'use_case': 'still', 'transform': <libcamera.Transform 'identity'>, 'colour_space': <libcamera.ColorSpace 'sYCC'>, 'buffer_count': 1, 'queue': True, 'main': {'format': 'BGR888', 'size': (4608, 2592), 'stride': 13824, 'framesize': 35831808}, 'lores': None, 'raw': {'format': 'SBGGR10_CSI2P', 'size': (4608, 2592), 'stride': 5760, 'framesize': 14929920}, 'controls': {'NoiseReductionMode': <NoiseReductionModeEnum.HighQuality: 2>, 'FrameDurationLimits': (100, 1000000000)}, 'display': None, 'encode': None}
+2024-11-01 21:36:06,279 - INFO - Configuration successful!
+2024-11-01 21:36:06,280 - DEBUG - Final configuration: {'use_case': 'still', 'transform': <libcamera.Transform 'identity'>, 'colour_space': <libcamera.ColorSpace 'sYCC'>, 'buffer_count': 1, 'queue': True, 'main': {'format': 'BGR888', 'size': (4608, 2592), 'stride': 13824, 'framesize': 35831808}, 'lores': None, 'raw': {'format': 'SBGGR10_CSI2P', 'size': (4608, 2592), 'stride': 5760, 'framesize': 14929920}, 'controls': {'NoiseReductionMode': <NoiseReductionModeEnum.HighQuality: 2>, 'FrameDurationLimits': (100, 1000000000)}, 'display': None, 'encode': None}
+2024-11-01 21:36:06,281 - DEBUG - Streams: {'main': <libcamera._libcamera.Stream object at 0x7f6e391bf0>, 'lores': None, 'raw': <libcamera._libcamera.Stream object at 0x7f6e395cb0>}
+2024-11-01 21:36:06,299 - DEBUG - Allocated 1 buffers for stream 0.
+2024-11-01 21:36:06,326 - DEBUG - Allocated 1 buffers for stream 1.
+2024-11-01 21:36:06,328 - INFO - 초점 설정: {'ExposureTime': 50000, 'AfMode': <AfModeEnum.Manual: 0>, 'LensPosition': 3.6}
+2024-11-01 21:36:07,330 - INFO - 0번 카메라 설정 완료.
+2024-11-01 21:36:07,331 - INFO - CameraController 0 생성 완료.
+2024-11-01 21:36:07,332 - INFO - 0번 카메라에서 second 이미지를 캡처 중...
+2024-11-01 21:36:07,517 - INFO - Camera started
+2024-11-01 21:36:08,294 - DEBUG - Execute job: <picamera2.job.Job object at 0x7f6e398fd0>
+2024-11-01 21:36:08,318 - DEBUG - Resources now free: <picamera2.picamera2.Picamera2 object at 0x7f6fc7f340>
+2024-11-01 21:36:08,318 - DEBUG - Resources now free: <picamera2.picamera2.Picamera2 object at 0x7f6fc7ff70>
+2024-11-01 21:36:08,318 - DEBUG - Resources now free: <picamera2.picamera2.Picamera2 object at 0x7f6fc7f7c0>
+2024-11-01 21:36:09,166 - DEBUG - Execute job: <picamera2.job.Job object at 0x7f6e398fd0>
+2024-11-01 21:36:09,182 - INFO - Camera stopped
+2024-11-01 21:36:09,384 - DEBUG - Camera was not started
+2024-11-01 21:36:09,605 - INFO - Camera closed successfully.
+2024-11-01 21:36:09,607 - INFO - CameraController 0가 성공적으로 종료되었습니다.
+2024-11-01 21:36:09,608 - INFO - 1번 카메라 초기화 중...
+2024-11-01 21:36:09,611 - INFO - I2C 채널 1 설정 성공.
+2024-11-01 21:36:09,614 - INFO - ImageProcessor 생성 완료.
+2024-11-01 21:36:09,757 - INFO - Initialization successful.
+2024-11-01 21:36:09,758 - INFO - Camera now open.
+2024-11-01 21:36:09,759 - DEBUG - <libcamera._libcamera.CameraManager object at 0x7f71405ab0>
+2024-11-01 21:36:09,773 - DEBUG - Requesting configuration: {'use_case': 'still', 'transform': <libcamera.Transform 'identity'>, 'colour_space': <libcamera.ColorSpace 'sYCC'>, 'buffer_count': 1, 'queue': True, 'main': {'format': 'BGR888', 'size': (4608, 2592), 'stride': 13824, 'framesize': 35831808}, 'lores': None, 'raw': {'format': 'SBGGR10_CSI2P', 'size': (4608, 2592), 'stride': 5760, 'framesize': 14929920}, 'controls': {'NoiseReductionMode': <NoiseReductionModeEnum.HighQuality: 2>, 'FrameDurationLimits': (100, 1000000000)}, 'display': None, 'encode': None}
+2024-11-01 21:36:09,787 - INFO - Configuration successful!
+2024-11-01 21:36:09,788 - DEBUG - Final configuration: {'use_case': 'still', 'transform': <libcamera.Transform 'identity'>, 'colour_space': <libcamera.ColorSpace 'sYCC'>, 'buffer_count': 1, 'queue': True, 'main': {'format': 'BGR888', 'size': (4608, 2592), 'stride': 13824, 'framesize': 35831808}, 'lores': None, 'raw': {'format': 'SBGGR10_CSI2P', 'size': (4608, 2592), 'stride': 5760, 'framesize': 14929920}, 'controls': {'NoiseReductionMode': <NoiseReductionModeEnum.HighQuality: 2>, 'FrameDurationLimits': (100, 1000000000)}, 'display': None, 'encode': None}
+2024-11-01 21:36:09,790 - DEBUG - Streams: {'main': <libcamera._libcamera.Stream object at 0x7f6fc837f0>, 'lores': None, 'raw': <libcamera._libcamera.Stream object at 0x7f6fc83230>}
+2024-11-01 21:36:09,809 - DEBUG - Allocated 1 buffers for stream 0.
+2024-11-01 21:36:09,837 - DEBUG - Allocated 1 buffers for stream 1.
+2024-11-01 21:36:09,839 - INFO - 초점 설정: {'ExposureTime': 50000, 'AfMode': <AfModeEnum.Manual: 0>, 'LensPosition': 3.6}
+2024-11-01 21:36:10,841 - INFO - 1번 카메라 설정 완료.
+2024-11-01 21:36:10,842 - INFO - CameraController 1 생성 완료.
+2024-11-01 21:36:10,843 - INFO - 1번 카메라에서 second 이미지를 캡처 중...
+2024-11-01 21:36:11,024 - INFO - Camera started
+2024-11-01 21:36:11,801 - DEBUG - Execute job: <picamera2.job.Job object at 0x7f6fc7f1f0>
+2024-11-01 21:36:12,669 - DEBUG - Execute job: <picamera2.job.Job object at 0x7f6fc7f1f0>
+2024-11-01 21:36:12,684 - INFO - Camera stopped
+2024-11-01 21:36:12,886 - DEBUG - Camera was not started
+2024-11-01 21:36:13,097 - INFO - Camera closed successfully.
+2024-11-01 21:36:13,098 - INFO - CameraController 1가 성공적으로 종료되었습니다.
+2024-11-01 21:36:13,099 - INFO - 2번 카메라 초기화 중...
+2024-11-01 21:36:13,101 - INFO - I2C 채널 2 설정 성공.
+2024-11-01 21:36:13,102 - INFO - ImageProcessor 생성 완료.
+2024-11-01 21:36:13,232 - INFO - Initialization successful.
+2024-11-01 21:36:13,233 - INFO - Camera now open.
+2024-11-01 21:36:13,234 - DEBUG - <libcamera._libcamera.CameraManager object at 0x7f6fc84cf0>
+2024-11-01 21:36:13,247 - DEBUG - Requesting configuration: {'use_case': 'still', 'transform': <libcamera.Transform 'identity'>, 'colour_space': <libcamera.ColorSpace 'sYCC'>, 'buffer_count': 1, 'queue': True, 'main': {'format': 'BGR888', 'size': (4608, 2592), 'stride': 13824, 'framesize': 35831808}, 'lores': None, 'raw': {'format': 'SBGGR10_CSI2P', 'size': (4608, 2592), 'stride': 5760, 'framesize': 14929920}, 'controls': {'NoiseReductionMode': <NoiseReductionModeEnum.HighQuality: 2>, 'FrameDurationLimits': (100, 1000000000)}, 'display': None, 'encode': None}
+2024-11-01 21:36:13,260 - INFO - Configuration successful!
+2024-11-01 21:36:13,261 - DEBUG - Final configuration: {'use_case': 'still', 'transform': <libcamera.Transform 'identity'>, 'colour_space': <libcamera.ColorSpace 'sYCC'>, 'buffer_count': 1, 'queue': True, 'main': {'format': 'BGR888', 'size': (4608, 2592), 'stride': 13824, 'framesize': 35831808}, 'lores': None, 'raw': {'format': 'SBGGR10_CSI2P', 'size': (4608, 2592), 'stride': 5760, 'framesize': 14929920}, 'controls': {'NoiseReductionMode': <NoiseReductionModeEnum.HighQuality: 2>, 'FrameDurationLimits': (100, 1000000000)}, 'display': None, 'encode': None}
+2024-11-01 21:36:13,262 - DEBUG - Streams: {'main': <libcamera._libcamera.Stream object at 0x7f6e38d8f0>, 'lores': None, 'raw': <libcamera._libcamera.Stream object at 0x7f6e38dfb0>}
+2024-11-01 21:36:13,279 - DEBUG - Allocated 1 buffers for stream 0.
+2024-11-01 21:36:13,305 - DEBUG - Allocated 1 buffers for stream 1.
+2024-11-01 21:36:13,307 - INFO - 초점 설정: {'ExposureTime': 50000, 'AfMode': <AfModeEnum.Manual: 0>, 'LensPosition': 3.6}
+2024-11-01 21:36:14,309 - INFO - 2번 카메라 설정 완료.
+2024-11-01 21:36:14,310 - INFO - CameraController 2 생성 완료.
+2024-11-01 21:36:14,311 - INFO - 2번 카메라에서 second 이미지를 캡처 중...
+2024-11-01 21:36:14,494 - INFO - Camera started
+2024-11-01 21:36:15,505 - DEBUG - Execute job: <picamera2.job.Job object at 0x7f6e39e580>
+2024-11-01 21:36:16,411 - DEBUG - Execute job: <picamera2.job.Job object at 0x7f6e39e580>
+2024-11-01 21:36:16,428 - INFO - Camera stopped
+2024-11-01 21:36:16,630 - DEBUG - Camera was not started
+2024-11-01 21:36:16,842 - INFO - Camera closed successfully.
+2024-11-01 21:36:16,842 - INFO - CameraController 2가 성공적으로 종료되었습니다.
+2024-11-01 21:36:16,843 - INFO - 3번 카메라 초기화 중...
+2024-11-01 21:36:16,845 - INFO - I2C 채널 3 설정 성공.
+2024-11-01 21:36:16,846 - INFO - ImageProcessor 생성 완료.
+2024-11-01 21:36:16,972 - INFO - Initialization successful.
+2024-11-01 21:36:16,974 - INFO - Camera now open.
+2024-11-01 21:36:16,975 - DEBUG - <libcamera._libcamera.CameraManager object at 0x7f703a4530>
+2024-11-01 21:36:16,988 - DEBUG - Requesting configuration: {'use_case': 'still', 'transform': <libcamera.Transform 'identity'>, 'colour_space': <libcamera.ColorSpace 'sYCC'>, 'buffer_count': 1, 'queue': True, 'main': {'format': 'BGR888', 'size': (4608, 2592), 'stride': 13824, 'framesize': 35831808}, 'lores': None, 'raw': {'format': 'SBGGR10_CSI2P', 'size': (4608, 2592), 'stride': 5760, 'framesize': 14929920}, 'controls': {'NoiseReductionMode': <NoiseReductionModeEnum.HighQuality: 2>, 'FrameDurationLimits': (100, 1000000000)}, 'display': None, 'encode': None}
+2024-11-01 21:36:17,001 - INFO - Configuration successful!
+2024-11-01 21:36:17,002 - DEBUG - Final configuration: {'use_case': 'still', 'transform': <libcamera.Transform 'identity'>, 'colour_space': <libcamera.ColorSpace 'sYCC'>, 'buffer_count': 1, 'queue': True, 'main': {'format': 'BGR888', 'size': (4608, 2592), 'stride': 13824, 'framesize': 35831808}, 'lores': None, 'raw': {'format': 'SBGGR10_CSI2P', 'size': (4608, 2592), 'stride': 5760, 'framesize': 14929920}, 'controls': {'NoiseReductionMode': <NoiseReductionModeEnum.HighQuality: 2>, 'FrameDurationLimits': (100, 1000000000)}, 'display': None, 'encode': None}
+2024-11-01 21:36:17,003 - DEBUG - Streams: {'main': <libcamera._libcamera.Stream object at 0x7f6e393d70>, 'lores': None, 'raw': <libcamera._libcamera.Stream object at 0x7f6e3a2330>}
+2024-11-01 21:36:17,020 - DEBUG - Allocated 1 buffers for stream 0.
+2024-11-01 21:36:17,050 - DEBUG - Allocated 1 buffers for stream 1.
+2024-11-01 21:36:17,052 - INFO - 초점 설정: {'ExposureTime': 50000, 'AfMode': <AfModeEnum.Manual: 0>, 'LensPosition': 3.6}
+2024-11-01 21:36:18,054 - INFO - 3번 카메라 설정 완료.
+2024-11-01 21:36:18,055 - INFO - CameraController 3 생성 완료.
+2024-11-01 21:36:18,055 - INFO - 3번 카메라에서 second 이미지를 캡처 중...
+2024-11-01 21:36:18,237 - INFO - Camera started
+2024-11-01 21:36:19,014 - DEBUG - Execute job: <picamera2.job.Job object at 0x7f6e3aa6a0>
+2024-11-01 21:36:19,881 - DEBUG - Execute job: <picamera2.job.Job object at 0x7f6e3aa6a0>
+2024-11-01 21:36:19,897 - INFO - Camera stopped
+2024-11-01 21:36:20,099 - DEBUG - Camera was not started
+2024-11-01 21:36:20,310 - INFO - Camera closed successfully.
+2024-11-01 21:36:20,312 - INFO - CameraController 3가 성공적으로 종료되었습니다.
+2024-11-01 21:36:21,001 - DEBUG - Resources now free: <picamera2.picamera2.Picamera2 object at 0x7f6e3987c0>
+2024-11-01 21:36:21,003 - DEBUG - Resources now free: <picamera2.picamera2.Picamera2 object at 0x7f6e392ac0>
+2024-11-01 21:36:21,004 - DEBUG - Resources now free: <picamera2.picamera2.Picamera2 object at 0x7f6e39e460>
+2024-11-01 21:36:21,005 - DEBUG - Resources now free: <picamera2.picamera2.Picamera2 object at 0x7f6fc5ef10>
+2024-11-01 21:36:21,006 - DEBUG - Resources now free: <picamera2.picamera2.Picamera2 object at 0x7f6e392ee0>
